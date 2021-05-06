@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap");
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+header h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem;
+  transition: all 0.3s ease-out;
+  color: #60061e;
+}
+header h1:hover {
+  color: #c55;
+  letter-spacing: 3px;
+}
+header nav {
+  background: #f1faee;
+  height: 5rem;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 30px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header nav ul li {
+  margin: 0 2rem;
+  font-size: 1.5rem;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 2px;
+}
+header nav ul li a {
+  color: #1d3557;
+  transition: all 0.3s ease-in;
+}
+header nav ul li a:hover {
+  color: #e63946;
+}
+
+section .container {
+  margin: 5rem;
+  border: 3px solid black;
+  border-radius: 10px;
+  background: #a8dadc;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .container img {
+  width: 100%;
+  height: auto;
+}
+section .container .book-review {
+  width: 70%;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: #1d3557;
+}
